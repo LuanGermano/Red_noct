@@ -16,7 +16,9 @@ body{
 }
 
 main{
+    width:1552px;
     margin: auto;
+    background-color: transparent;
 }
 
 #video{
@@ -24,25 +26,26 @@ main{
         background-color:  #3a0707;
         border-radius: 2px;
         width: 1024px;
-        padding: 3px 3px 1px 3px;
-        margin: 20px auto 10px auto;
+        padding: 3px 3px 3px 3px;
+        margin: 10px 0px 40px 0px;
 
 }
 
 .img1{
     display: inline-block;
-    margin-right: 100px;
-    float: left;
+    margin: auto;
+
 }
+
 .img2{
     display:inline-block;
-    float:right;
+    margin-right: auto;
+
 }
 .img:hover{
     background-color: black;
     /*Vc consegue trocar essa imagem por outra no futuro? vc aprendeu*/
 }
-
 
 h1{
     margin: 15px auto 30px auto;
