@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'kh';
+    src: url('fonts/Kingdom_Hearts_Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(-45deg,#b43f09, 
+    #b43c04,#a81805,rgb(189, 10, 10), #bd0a0a,#8A0707, #3D1515, #3a0707);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #D99A25;
+}
+
+
+
+#video{
+        display:inline-block;
+        background-color:  #3a0707;
+        border-radius: 2px;
+        width: 1024px;
+        padding: 3px 3px 1px 3px;
+        margin: 20px auto 10px auto;
+
+}
+
+h1{
+    margin: 15px auto 30px auto;
+    text-align: center;
+    font-family: 'kh',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+a{
+    color: #D99A25;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#835a0d;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color:black
+}
+
+ul{
+    color: goldenrod;
+}
+
+.img1{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 441px;
+    width: 250px;
+}
+.img2{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 441px;
+    width: 250px;
+    margin: right;
+}
+.img:hover{
+    background-color: black;
+    /*Vc consegue trocar essa imagem por outra no futuro? vc aprendeu*/
+}
