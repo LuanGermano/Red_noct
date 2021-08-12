@@ -26,7 +26,7 @@ main{
         background-color:  #3a0707;
         border-radius: 2px;
         width: 1024px;
-        padding: 3px 3px 3px 3px;
+        padding: 3px 3px 0px 3px;
         margin: 10px 0px 40px 0px;
 
 }
@@ -41,10 +41,6 @@ main{
     display:inline-block;
     margin-right: auto;
 
-}
-.img:hover{
-    background-color: black;
-    /*Vc consegue trocar essa imagem por outra no futuro? vc aprendeu*/
 }
 
 h1{
@@ -69,5 +65,5 @@ a:hover{
 }
 
 ul{
-    color: goldenrod;
+    color: rgb(155, 113, 8);
 }
