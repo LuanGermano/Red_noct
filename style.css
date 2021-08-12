@@ -31,15 +31,11 @@ main{
 
 .img1{
     display: inline-block;
-    height: 441px;
-    width: 250px;
     margin-right: 100px;
     float: left;
 }
 .img2{
     display:inline-block;
-    height: 441px;
-    width: 250px;
     float:right;
 }
 .img:hover{
