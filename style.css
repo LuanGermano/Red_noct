@@ -15,15 +15,10 @@ body{
     color: #D99A25;
 }
 
-main{
-    height: 586px;
-    width: 1030px;
-    display:inline-block;
-    margin: 20px auto 10px auto;
-}
+
 
 #video{
-        display:block;
+        display:inline-block;
         background-color:  #3a0707;
         border-radius: 2px;
         width: 1024px;
@@ -57,29 +52,20 @@ ul{
     color: goldenrod;
 }
 
-.img{
+.img1{
     display: inline-block;
     border: 1px solid black;
     text-align: center;
     height: 441px;
     width: 250px;
-    margin-left: auto;
 }
 .img2{
-    display: flex;
+    display: inline-block;
     border: 1px solid black;
     text-align: center;
     height: 441px;
     width: 250px;
-    margin-left: auto;
-}
-.img1{
-    display: flex;
-    border: 1px solid black;
-    text-align: center;
-    height: 441px;
-    width: 250px;
-    margin-right: auto;
+    margin: right;
 }
 .img:hover{
     background-color: black;
