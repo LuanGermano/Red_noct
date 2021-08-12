@@ -15,15 +15,31 @@ body{
     color: #D99A25;
 }
 
-
+main{
+    width:1552px;
+    margin: auto;
+    background-color: transparent;
+}
 
 #video{
         display:inline-block;
         background-color:  #3a0707;
         border-radius: 2px;
         width: 1024px;
-        padding: 3px 3px 1px 3px;
-        margin: 20px auto 10px auto;
+        padding: 3px 3px 0px 3px;
+        margin: 10px 0px 40px 0px;
+
+}
+
+.img1{
+    display: inline-block;
+    margin: auto;
+
+}
+
+.img2{
+    display:inline-block;
+    margin-right: auto;
 
 }
 
@@ -49,26 +65,5 @@ a:hover{
 }
 
 ul{
-    color: goldenrod;
-}
-
-.img1{
-    display: inline-block;
-    border: 1px solid black;
-    text-align: center;
-    height: 441px;
-    width: 250px;
-}
-.img2{
-    display: inline-block;
-    border: 1px solid black;
-    text-align: center;
-    height: 441px;
-    width: 250px;
-    margin: right;
-}
-.img:hover{
-    background-color: black;
-    
-    /*Vc consegue trocar essa imagem por outra no futuro? vc aprendeu*/
+    color: rgb(155, 113, 8);
 }
