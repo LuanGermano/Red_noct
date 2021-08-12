@@ -15,7 +15,9 @@ body{
     color: #D99A25;
 }
 
-
+main{
+    margin: auto;
+}
 
 #video{
         display:inline-block;
@@ -26,6 +28,25 @@ body{
         margin: 20px auto 10px auto;
 
 }
+
+.img1{
+    display: inline-block;
+    height: 441px;
+    width: 250px;
+    margin-right: 100px;
+    float: left;
+}
+.img2{
+    display:inline-block;
+    height: 441px;
+    width: 250px;
+    float:right;
+}
+.img:hover{
+    background-color: black;
+    /*Vc consegue trocar essa imagem por outra no futuro? vc aprendeu*/
+}
+
 
 h1{
     margin: 15px auto 30px auto;
@@ -50,24 +71,4 @@ a:hover{
 
 ul{
     color: goldenrod;
-}
-
-.img1{
-    display: inline-block;
-    border: 1px solid black;
-    text-align: center;
-    height: 441px;
-    width: 250px;
-}
-.img2{
-    display: inline-block;
-    border: 1px solid black;
-    text-align: center;
-    height: 441px;
-    width: 250px;
-    margin: right;
-}
-.img:hover{
-    background-color: black;
-    /*Vc consegue trocar essa imagem por outra no futuro? vc aprendeu*/
 }
